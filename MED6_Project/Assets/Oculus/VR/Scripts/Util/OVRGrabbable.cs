@@ -22,6 +22,7 @@ using UnityEngine;
 /// </summary>
 public class OVRGrabbable : MonoBehaviour
 {
+    [Header("OVRGrabbable Settings")]
     [SerializeField]
     protected bool m_allowOffhandGrab = true;
     [SerializeField]
